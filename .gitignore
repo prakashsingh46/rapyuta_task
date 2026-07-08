@@ -1,0 +1,44 @@
+# Dependencies
+**/node_modules/
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.*
+*.env
+
+# Data files (JSON storage)
+backend/data/*.json
+!backend/data/.gitkeep
+
+# Build output
+**/build/
+**/dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Debug
+*.debug
+
+# Coverage
+coverage/
+
+# Temp files
+*.tmp
+*.temp
+
+# Package lock (optional - remove if you want to track it)
+# package-lock.json
